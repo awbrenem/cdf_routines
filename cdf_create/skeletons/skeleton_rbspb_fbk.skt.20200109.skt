@@ -1,0 +1,2222 @@
+! Skeleton table for the "aaa_rbspb_efw-l2_fbk_00000000_v02" CDF.
+! Generated: Thursday, 9-Jan-2020 09:00:43
+! CDF created/modified by CDF V3.5.0
+! Skeleton table created by CDF V3.7.0_0
+
+#header
+
+                       CDF NAME: aaa_rbspb_efw-l2_fbk_00000000_v02
+                  DATA ENCODING: NETWORK
+                       MAJORITY: ROW
+                         FORMAT: SINGLE
+
+! Variables  G.Attributes  V.Attributes  Records  Dims  Sizes
+! ---------  ------------  ------------  -------  ----  -----
+    0/55          26            36         0/z      0
+! CDF_COMPRESSION: None
+! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+! CDF_CHECKSUM: None
+! (Valid checksum: None, MD5)
+
+
+#GLOBALattributes
+
+! Attribute         Entry       Data
+! Name              Number      Type       Value
+! ---------         ------      ----       -----
+
+  "Project"             1:    CDF_CHAR     { "rbsp" } .
+
+  "Source_name"         1:    CDF_CHAR     { "RBSP-B>Radiation Belt " -
+                                             "Storm Probe B" } .
+
+  "Discipline"          1:    CDF_CHAR     { "Space " -
+                                             "Physics>Magnetospheric " -
+                                             "Science" } .
+
+  "Data_type"           1:    CDF_CHAR     { "FBK>filterbank" } .
+
+  "Descriptor"          1:    CDF_CHAR     { "EFW-L2>Electric Field and " -
+                                             "Waves L2" } .
+
+  "Data_version"        1:    CDF_CHAR     { "02" } .
+
+  "PI_name"             1:    CDF_CHAR     { "J. R. Wygant" } .
+
+  "PI_affiliation"      1:    CDF_CHAR     { "University of Minnesota" } .
+
+  "TEXT"                1:    CDF_CHAR     { "Up to two sources are " -
+                                             "returned. The possible " -
+                                             "sources are:" }
+                        2:    CDF_CHAR     { "E12DC,E34DC,E56DC," }
+                        3:    CDF_CHAR     { "E12AC,E34AC,E56AC," }
+                        4:    CDF_CHAR     { "SCMU,SCMV,SCMW" }
+                        5:    CDF_CHAR     { "(V1DC+V2DC+V3DC+V4DC)/4" } .
+
+  "Instrument_type"     1:    CDF_CHAR     { "Electric Fields (space)" } .
+
+  "Mission_group"       1:    CDF_CHAR     { "Van Allen Probes (RBSP)" } .
+
+  "Logical_source"      1:    CDF_CHAR     { "rbsp-b_fbk_efw-l2" } .
+
+  "Logical_file_id"     1:    CDF_CHAR     { "rbsp-b_fbk_efw-l2_00000000" -
+                                             "_v02" } .
+
+  "Logical_source_description"
+                        1:    CDF_CHAR     { "Filterbank data product " -
+                                             "from RBSP-EFW" } .
+
+  "Time_resolution"     1:    CDF_CHAR     { "UTC" } .
+
+  "Rules_of_use"        1:    CDF_CHAR     { "Open Data for Scientific " -
+                                             'Use; please see EFW "Rules' -
+                                             ' of the Road" ' -
+                                             "(http://rbsp.space.umn.edu" -
+                                             "/data_policy.html) for " -
+                                             "details of the Van Allen " -
+                                             "Probes Mission and EFW " -
+                                             'Instrument "Rules of the ' -
+                                             'Road", and the EFW-FAQ ' -
+                                             "(http://rbsp.space.umn.edu" -
+                                             "/efw_faq.html) for details" -
+                                             " of and caveats on " -
+                                             "instrument performance and" -
+                                             " data quality." } .
+
+  "Generated_by"        1:    CDF_CHAR     { "RBSP-EFW SOC" } .
+
+  "Generation_date"     1:    CDF_CHAR     { "Fiducial UTC " -
+                                             "YYYY:MM:DDTHH:MM:SS" } .
+
+  "Acknowledgement"     1:    CDF_CHAR     { " This work was supported " -
+                                             "by Van Allen Probes (RBSP)" -
+                                             " EFW funding provided by " -
+                                             "JHU/APL Contract No. TBD " -
+                                             "under NASA's Prime " -
+                                             "Contract No. TBD; EFW PI, " -
+                                             "J. R. Wygant, UMN." } .
+
+  "MODS" .
+
+  "ADID_ref"            1:    CDF_CHAR     { "n/a" } .
+
+  "LINK_TEXT" .
+
+  "LINK_TITLE" .
+
+  "HTTP_LINK" .
+
+  "File_naming_convention"
+                        1:    CDF_CHAR     { "source_datatype_descriptor" -
+                                             "_yyyyMMdd" } .
+
+  "Software_version"
+                        1:    CDF_CHAR     { "xxxx" } .
+
+
+#VARIABLEattributes
+
+  "CATDESC"
+  "DEPEND_0"
+  "DEPEND_1"
+  "DISPLAY_TYPE"
+  "FIELDNAM"
+  "FILLVAL"
+  "FORMAT"
+  "LABL_PTR_1"
+  "UNITS"
+  "VALIDMIN"
+  "VALIDMAX"
+  "VAR_TYPE"
+  "DEPEND_TIME"
+  "DEPEND_EPOCH0"
+  "LABLAXIS"
+  "VAR_NOTES"
+  "VIRTUAL"
+  "FUNCT"
+  "COMPONENT_0"
+  "COMPONENT_1"
+  "SCALETYP"
+  "DICT_KEY"
+  "FORM_PTR"
+  "UNIT_PTR"
+  "SCAL_PTR"
+  "SC_ID"
+  "SI_CONVERSION"
+  "MONOTON"
+  "LEAP_SECONDS_INCLUDED"
+  "RESOLUTION"
+  "Bin_location"
+  "TIME_BASE"
+  "TIME_SCALE"
+  "REFERENCE_POSITION"
+  "ABSOLUTE_ERROR"
+  "RELATIVE_ERROR"
+
+
+#variables
+
+! No rVariables.
+
+
+#zVariables
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_fcenter"
+                  CDF_FLOAT      1       1     13       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "fbk13_fcenter [Hz]" }
+    "FIELDNAM"    CDF_CHAR     { "fbk13 freq [Hz]" }
+    "FILLVAL"     CDF_FLOAT    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "Hz" }
+    "VALIDMIN"    CDF_FLOAT    { 0.0 }
+    "VALIDMAX"    CDF_FLOAT    { 1.0e+06 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "LABLAXIS"    CDF_CHAR     { "freq (Hz)" }
+    "VAR_NOTES"   CDF_CHAR     { "High frequency bound for the FBK 13 bins" }
+    "SCALETYP"    CDF_CHAR     { "linear" } .
+
+  ! NRV values follow...
+
+    [1] = 1.15
+    [2] = 2.25
+    [3] = 4.5
+    [4] = 9.0
+    [5] = 18.5
+    [6] = 37.5
+    [7] = 75.0
+    [8] = 150.0
+    [9] = 300.0
+    [10] = 600.0
+    [11] = 1200.0
+    [12] = 2400.0
+    [13] = 4850.0
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_e12dc_pk"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 E12DC peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 E12DC peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_e12dc" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_e12ac_pk"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 E12AC peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 E12AC peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_e12ac" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_e56dc_pk"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 E56DC peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 E56DC peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_e56dc" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_e34dc_pk"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 E34DC peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 E34DC peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_e34dc" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_e34ac_pk"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 E34AC peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 E34AC peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_e34ac" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_e56ac_pk"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 E56AC peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 E56AC peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_e56ac" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_scmu_pk"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 SCMu peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 SCMu peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_scmu" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_scmv_pk"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 SCMv peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 SCMv peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_scmv" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_scmw_pk"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 SCMw peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 SCMw peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_scmw" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_v1v2v3v4_avg_pk"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 (v1+v2+v3+v4)/4 peak " -
+                                 "values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 (v1+v2+v3+v4)/4 peak " -
+                                 "values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "Volts" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_v1v2v3v4_avg_pk" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_e12dc_pk"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 E12DC peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 E12DC peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_e12dc" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_fcenter"
+                  CDF_REAL4      1       1     7        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "fbk7_fcenter [Hz]" }
+    "FIELDNAM"    CDF_CHAR     { "fbk7 freq [Hz]" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "VALIDMIN"    CDF_REAL4    { 1.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "LABLAXIS"    CDF_CHAR     { "freq [Hz]" }
+    "VAR_NOTES"   CDF_CHAR     { "Center frequency for the FBK 7 bins" }
+    "SCALETYP"    CDF_CHAR     { "linear" } .
+
+  ! NRV values follow...
+
+    [1] = 1.15
+    [2] = 4.5
+    [3] = 18.5
+    [4] = 75.0
+    [5] = 300.0
+    [6] = 1200.0
+    [7] = 4850.0
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_e12ac_pk"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 E12AC peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 E12AC peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_e12ac" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_e34dc_pk"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 E34DC peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 E34DC peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_e34dc" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_e34ac_pk"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 E34AC peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 E34AC peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_e34ac" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_e56dc_pk"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 E56DC peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 E56DC peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_e56dc" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_e56ac_pk"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 E56AC peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 E56AC peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_e56ac" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_scmu_pk"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 SCMu peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 SCMu peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_scmu" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_scmv_pk"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 SCMv peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 SCMv peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_scmv" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_scmw_pk"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 SCMw peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 SCMw peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_scmw" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_v1v2v3v4_avg_pk"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 (v1+v2+v3+v4)/4 peak values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 (v1+v2+v3+v4)/4 peak values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "Volts" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_v1v2v3v4_avg_pk" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_labl_fcenter"
+                  CDF_CHAR       7       1     13       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "fbk13_labl_fcenter [Hz]" }
+    "FIELDNAM"    CDF_CHAR     { "fbk13_labl_fcenter [Hz]" }
+    "FORMAT"      CDF_CHAR     { "A11" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_labl2" } .
+
+  ! NRV values follow...
+
+    [1] = { "1.15 Hz" }
+    [2] = { "2.25 Hz" }
+    [3] = { "4.5 Hz " }
+    [4] = { "9 Hz   " }
+    [5] = { "18.5 Hz" }
+    [6] = { "37.5 Hz" }
+    [7] = { "75 Hz  " }
+    [8] = { "150 Hz " }
+    [9] = { "300 Hz " }
+    [10] = { "600 Hz " }
+    [11] = { "1200 Hz" }
+    [12] = { "2400 Hz" }
+    [13] = { "4850 Hz" }
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_labl_fcenter"
+                  CDF_CHAR       7       1     7        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "fbk7_labl_fcenter [Hz]" }
+    "FIELDNAM"    CDF_CHAR     { "fbk7_labl_fcenter [Hz]" }
+    "FORMAT"      CDF_CHAR     { "A11" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_labl_fcenter" } .
+
+  ! NRV values follow...
+
+    [1] = { "1.15 Hz" }
+    [2] = { "4.5 Hz " }
+    [3] = { "18.5 Hz" }
+    [4] = { "75 Hz  " }
+    [5] = { "300 Hz " }
+    [6] = { "1200 Hz" }
+    [7] = { "4850 Hz" }
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_compno"
+                  CDF_INT1       1       1     13       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -127
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "fbk13_compno" }
+    "FIELDNAM"    CDF_CHAR     { "fbk13_compno" }
+    "FILLVAL"     CDF_INT1     { -128 }
+    "FORMAT"      CDF_CHAR     { "I3" }
+    "VALIDMIN"    CDF_INT1     { 0 }
+    "VALIDMAX"    CDF_INT1     { 13 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_compno" }
+    "SCALETYP"    CDF_CHAR     { "linear" } .
+
+  ! NRV values follow...
+
+    [1] =   1
+    [2] =   2
+    [3] =   3
+    [4] =   4
+    [5] =   5
+    [6] =   6
+    [7] =   7
+    [8] =   8
+    [9] =   9
+    [10] =  10
+    [11] =  11
+    [12] =  12
+    [13] =  13
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_compno"   CDF_INT1       1       1     7        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -127
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "fbk7_compno" }
+    "FIELDNAM"    CDF_CHAR     { "fbk7_compno" }
+    "FILLVAL"     CDF_INT1     { -128 }
+    "FORMAT"      CDF_CHAR     { "I3" }
+    "VALIDMIN"    CDF_INT1     { 0 }
+    "VALIDMAX"    CDF_INT1     { 7 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_compno" }
+    "SCALETYP"    CDF_CHAR     { "linear" } .
+
+  ! NRV values follow...
+
+    [1] =   1
+    [2] =   2
+    [3] =   3
+    [4] =   4
+    [5] =   5
+    [6] =   6
+    [7] =   7
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_flow"     CDF_REAL4      1       1     7        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "fbk7_flow" }
+    "FIELDNAM"    CDF_CHAR     { "fbk7_flow" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_flow" }
+    "VAR_NOTES"   CDF_CHAR     { "Low frequency bound for the FBK 7 bins" }
+    "SCALETYP"    CDF_CHAR     { "linear" } .
+
+  ! NRV values follow...
+
+    [1] = 0.8
+    [2] = 3.0
+    [3] = 12.0
+    [4] = 50.0
+    [5] = 200.0
+    [6] = 800.0
+    [7] = 3200.0
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_fhigh"    CDF_REAL4      1       1     7        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "fbk7_fcenter2" }
+    "FIELDNAM"    CDF_CHAR     { "fbk7_fcenter2" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_fcenter2" }
+    "VAR_NOTES"   CDF_CHAR     { "High frequency bound for the FBK 7 bins" }
+    "SCALETYP"    CDF_CHAR     { "linear" } .
+
+  ! NRV values follow...
+
+    [1] = 1.5
+    [2] = 6.0
+    [3] = 25.0
+    [4] = 100.0
+    [5] = 400.0
+    [6] = 1600.0
+    [7] = 6500.0
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_flow"    CDF_FLOAT      1       1     13       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "fbk13_flow" }
+    "FIELDNAM"    CDF_CHAR     { "fbk13_flow" }
+    "FILLVAL"     CDF_FLOAT    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "Hz" }
+    "VALIDMIN"    CDF_FLOAT    { 0.0 }
+    "VALIDMAX"    CDF_FLOAT    { 1.0e+06 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "LABLAXIS"    CDF_CHAR     { "freq" }
+    "VAR_NOTES"   CDF_CHAR     { "Low frequency bound for the FBK 13 bins" }
+    "SCALETYP"    CDF_CHAR     { "linear" } .
+
+  ! NRV values follow...
+
+    [1] = 0.8
+    [2] = 1.5
+    [3] = 3.0
+    [4] = 6.0
+    [5] = 12.0
+    [6] = 25.0
+    [7] = 50.0
+    [8] = 100.0
+    [9] = 200.0
+    [10] = 400.0
+    [11] = 800.0
+    [12] = 1600.0
+    [13] = 3200.0
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_fhigh"   CDF_FLOAT      1       1     13       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "fbk13_fhigh" }
+    "FIELDNAM"    CDF_CHAR     { "fbk13_fhigh" }
+    "FILLVAL"     CDF_FLOAT    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "Hz" }
+    "VALIDMIN"    CDF_FLOAT    { 0.0 }
+    "VALIDMAX"    CDF_FLOAT    { 1.0e+06 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "LABLAXIS"    CDF_CHAR     { "freq" }
+    "VAR_NOTES"   CDF_CHAR     { "High frequency bound for the FBK 13 bins" }
+    "SCALETYP"    CDF_CHAR     { "linear" } .
+
+  ! NRV values follow...
+
+    [1] = 1.5
+    [2] = 3.0
+    [3] = 6.0
+    [4] = 12.0
+    [5] = 25.0
+    [6] = 50.0
+    [7] = 100.0
+    [8] = 200.0
+    [9] = 400.0
+    [10] = 800.0
+    [11] = 1600.0
+    [12] = 3200.0
+    [13] = 6500.0
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_e12dc_av"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 E12DC average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 E12DC average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_e12dc" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_e12ac_av"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 E12AC average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 E12AC average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_e12ac" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_e56dc_av"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 E56DC average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 E56DC average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_e56dc" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_e34dc_av"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 E34DC average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 E34DC average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_e34dc" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_e34ac_av"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 E34AC average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 E34AC average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_e34ac" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_e56ac_av"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 E56AC average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 E56AC average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_e56ac" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_scmu_av"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 SCMu average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 SCMu average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_scmu" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_scmv_av"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 SCMv average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 SCMv average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_scmv" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_scmw_av"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 SCMw average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 SCMw average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_scmw" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk13_v1v2v3v4_avg_av"
+                  CDF_REAL4      1       1     13       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 13 (v1+v2+v3+v4)/4 average " -
+                                 "values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk13_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 13 (v1+v2+v3+v4)/4 average " -
+                                 "values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "Volts" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk13_v1v2v3v4_avg_av" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_e12dc_av"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 E12DC average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 E12DC average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 100000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_e12dc" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_e12ac_av"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 E12AC average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 E12AC average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_e12ac" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_e34dc_av"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 E34DC average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 E34DC average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_e34dc" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_e34ac_av"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 E34AC average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 E34AC average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_e34ac" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_e56dc_av"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 E56DC average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 E56DC average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_e56dc" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_e56ac_av"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 E56AC average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 E56AC average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "mV/m" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_e56ac" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_scmu_av"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 SCMu average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 SCMu average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_scmu" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_scmv_av"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 SCMv average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 SCMv average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_scmv" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_scmw_av"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 SCMw average values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 SCMw average values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "nT" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_scmw" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "fbk7_v1v2v3v4_avg_av"
+                  CDF_REAL4      1       1     7        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Filterbank 7 (v1+v2+v3+v4)/4 average " -
+                                 "values" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "fbk7_fcenter" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "spectrogram" }
+    "FIELDNAM"    CDF_CHAR     { "Filterbank 7 (v1+v2+v3+v4)/4 average " -
+                                 "values" }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "UNITS"       CDF_CHAR     { "Volts" }
+    "VALIDMIN"    CDF_REAL4    { 0.0 }
+    "VALIDMAX"    CDF_REAL4    { 10000.0 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "fbk7_v1v2v3v4_avg_av" }
+    "SCALETYP"    CDF_CHAR     { "log" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "epoch"         CDF_EPOCH16     1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: 01-Jan-0000 00:00:00.000.000.000.000
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Time, UTC" }
+    "FIELDNAM"    CDF_CHAR     { "Time, UTC" }
+    "FILLVAL"     CDF_EPOCH16   { 31-Dec-9999 23:59:59.999.999.999.999 }
+    "UNITS"       CDF_CHAR     { "UTC" }
+    "VALIDMIN"    CDF_EPOCH16   { 01-Jan-1990 00:00:00.000.000.000.000 }
+    "VALIDMAX"    CDF_EPOCH16   { 31-Dec-2029 23:59:59.999.999.999.999 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "LABLAXIS"    CDF_CHAR     { "epoch" }
+    "VAR_NOTES"   CDF_CHAR     { "Time tags for the survey quantities" }
+    "SCALETYP"    CDF_CHAR     { "linear" }
+    "MONOTON"     CDF_CHAR     { "INCREASE" }
+    "TIME_BASE"   CDF_CHAR     { "0 AD" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "epoch_flags"    CDF_EPOCH16     1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: 01-Jan-0000 00:00:00.000.000.000.000
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Timetags for elements of efw_flags" }
+    "FIELDNAM"    CDF_CHAR     { "Time, UTC" }
+    "FILLVAL"     CDF_EPOCH16   { 31-Dec-9999 23:59:59.999.999.999.999 }
+    "UNITS"       CDF_CHAR     { "UTC" }
+    "VALIDMIN"    CDF_EPOCH16   { 01-Jan-1990 00:00:00.000.000.000.000 }
+    "VALIDMAX"    CDF_EPOCH16   { 31-Dec-2029 23:59:59.999.999.999.999 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "LABLAXIS"    CDF_CHAR     { "epoch_qual" }
+    "VAR_NOTES"   CDF_CHAR     { "The elements of efw_flags are " -
+                                 "determined on a fixed cadence " -
+                                 "regardless of the nominal cadence of " -
+                                 "the individual L2 data products, and " -
+                                 "epoch_qual provides storage for those " -
+                                 "fixed-cadence time tags. " }
+    "SCALETYP"    CDF_CHAR     { "linear" }
+    "MONOTON"     CDF_CHAR     { "INCREASE" }
+    "TIME_BASE"   CDF_CHAR     { "0 AD" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "efw_flags_all"      CDF_INT2       1       1     20       T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -32767
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "An array that indicates a global " -
+                                 "estimate of EFW data quality, as well " -
+                                 "as a breakdown of observatory and " -
+                                 "instrument-level data quality issues " -
+                                 "that impact the global quality " -
+                                 "estimate. " }
+    "DEPEND_0"    CDF_CHAR     { "epoch_qual" }
+    "DEPEND_1"    CDF_CHAR     { "efw_flags_compno" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FIELDNAM"    CDF_CHAR     { "EFW Data Quality Flags" }
+    "FILLVAL"     CDF_INT2     { -32768 }
+    "FORMAT"      CDF_CHAR     { "I8" }
+    "LABL_PTR_1"  CDF_CHAR     { "efw_flags_labl" }
+    "VALIDMIN"    CDF_INT2     { -10000 }
+    "VALIDMAX"    CDF_INT2     { 10000 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "LABLAXIS"    CDF_CHAR     { "efw_flags_all" }
+    "VAR_NOTES"   CDF_CHAR     { "The quality of EFW data products can " -
+                                 "be affected by a variety of " -
+                                 "observatory and instrument-level " -
+                                 "conditions.  efw_flags_all is a collection " -
+                                 "of flags that show the estimate of " -
+                                 "each of these contributors over time. " -
+                                 "   See the EFW-FAQ " -
+                                 "(http://rbsp.space.umn.edu/efw_faq.htm" -
+                                 "l) for a detailed description of the " -
+                                 "determination and meaning of each of " -
+                                 "the elements of efw_flags_all.  If the " -
+                                 "value of a particular element of " -
+                                 "efw_flags_all is not relevant to the " -
+                                 "quality of a particular data product, " -
+                                 "it shall receive the value EFW_FLAGS_ALL_NR" -
+                                 " (typ. -2).  If the value of a " -
+                                 "particular element of efw_flags_all is " -
+                                 "relevant to the quality of a " -
+                                 "particular data product but is not " -
+                                 "known at the time lf L2 data " -
+                                 "production, it shall receive the value" -
+                                 " EFW_FLAGS_ALL_UNK (typ. -1).  A quality " -
+                                 "value of EFW_FLAGS_ALL_GOOD (typ. 0) " -
+                                 "indicates that there are no known " -
+                                 "issues with the data product due to " -
+                                 "that particular element of efw_flags_all.  " -
+                                 "The quality values are meant to be " -
+                                 "conservative, and values other than " -
+                                 "EFW_FLAGS_ALL_GOOD should lead the user " -
+                                 "back to a member of the EFW instrument" -
+                                 " team for discussion and advice on the" -
+                                 " nature of the data quality as needed." }
+    "SCALETYP"    CDF_CHAR     { "linear" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "efw_flags_labl"
+                  CDF_CHAR      19       1     20       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Descriptive labels for each of the " -
+                                 "elements of efw_flags_all." }
+    "FIELDNAM"    CDF_CHAR     { "EFW Quality Flag Labels" }
+    "FORMAT"      CDF_CHAR     { "A26" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "LABLAXIS"    CDF_CHAR     { "efw_flags_labl" }
+    "VAR_NOTES"   CDF_CHAR     { "See EFW-FAQ " -
+                                 "(http://rbsp.space.umn.edu/efw_faq.htm" -
+                                 "l) for detailed description of the " -
+                                 "determination and meaning of each of " -
+                                 "the elements of efw_flags_all." } .
+
+  ! NRV values follow...
+
+    [1] = { "global_flag        " }
+    [2] = { "eclipse            " }
+    [3] = { "maneuver           " }
+    [4] = { "efw_sweep          " }
+    [5] = { "efw_deploy         " }
+    [6] = { "v1_saturation      " }
+    [7] = { "v2_saturation      " }
+    [8] = { "v3_saturation      " }
+    [9] = { "v4_saturation      " }
+    [10] = { "v5_saturation      " }
+    [11] = { "v6_saturation      " }
+    [12] = { "Espb_magnitude     " }
+    [13] = { "Eparallel_magnitude" }
+    [14] = { "magnetic_wake      " }
+    [15] = { "autobias           " }
+    [16] = { "charging           " }
+    [17] = { "undefined          " }
+    [18] = { "undefined          " }
+    [19] = { "undefined          " }
+    [20] = { "undefined          " }
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "efw_flags_compno"
+                  CDF_INT2       1       1     20       F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -32767
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Component numbers for EFW data quality" -
+                                 " flags, efw_flags_all." }
+    "FIELDNAM"    CDF_CHAR     { "EFW Quality Flags Components" }
+    "FILLVAL"     CDF_INT2     { -32768 }
+    "FORMAT"      CDF_CHAR     { "I5" }
+    "VALIDMIN"    CDF_INT2     { 1 }
+    "VALIDMAX"    CDF_INT2     { 20 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "LABLAXIS"    CDF_CHAR     { "Comp No 1" }
+    "VAR_NOTES"   CDF_CHAR     { "none." }
+    "SCALETYP"    CDF_CHAR     { "linear" } .
+
+  ! NRV values follow...
+
+    [1] =     1
+    [2] =     2
+    [3] =     3
+    [4] =     4
+    [5] =     5
+    [6] =     6
+    [7] =     7
+    [8] =     8
+    [9] =     9
+    [10] =    10
+    [11] =    11
+    [12] =    12
+    [13] =    13
+    [14] =    14
+    [15] =    15
+    [16] =    16
+    [17] =    17
+    [18] =    18
+    [19] =    19
+    [20] =    20
+
+
+#end

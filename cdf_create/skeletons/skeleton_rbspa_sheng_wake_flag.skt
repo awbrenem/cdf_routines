@@ -1,0 +1,507 @@
+! Skeleton table for the "rbsp_skeleton_generic_00000000" CDF.
+! Generated: Tuesday, 24-Mar-2020 11:36:30
+! CDF created/modified by CDF V3.5.0
+! Skeleton table created by CDF V3.7.0_0
+
+#header
+
+                       CDF NAME: rbsp_skeleton_generic_00000000
+                  DATA ENCODING: NETWORK
+                       MAJORITY: ROW
+                         FORMAT: SINGLE
+
+! Variables  G.Attributes  V.Attributes  Records  Dims  Sizes
+! ---------  ------------  ------------  -------  ----  -----
+    0/18          25            29         0/z      0
+! CDF_COMPRESSION: None
+! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+! CDF_CHECKSUM: None
+! (Valid checksum: None, MD5)
+
+
+#GLOBALattributes
+
+! Attribute         Entry       Data
+! Name              Number      Type       Value
+! ---------         ------      ----       -----
+
+  "Project"             1:    CDF_CHAR     { "rbsp" } .
+
+  "Source_name"         1:    CDF_CHAR     { "RBSP>" } .
+
+  "Discipline"          1:    CDF_CHAR     { "Space " -
+                                             "Physics>Magnetospheric " -
+                                             "Science" } .
+
+  "Descriptor"          1:    CDF_CHAR     { "EFW-L3>Electric Field and " -
+                                             "Waves L3" } .
+
+  "Data_version"        1:    CDF_CHAR     { "01" } .
+
+  "PI_name"             1:    CDF_CHAR     { "J. R. Wygant" } .
+
+  "PI_affiliation"      1:    CDF_CHAR     { "University of Minnesota" } .
+
+  "TEXT"                1:    CDF_CHAR     { "**************************" -
+                                             "**************************" -
+                                             "****** " -
+                                             "*************PRODUCTS FOR " -
+                                             "L3 " -
+                                             "FILES*******************: " -
+                                             "**************************" -
+                                             "**************************" -
+                                             "****** Eymgse, Ez mgse, " -
+                                             "spinfit  in a " -
+                                             "co-rotational frame (Vsc x" -
+                                             " B and Vcoro subtracted)  " -
+                                             "Include  Vsc x B, Vcoro x " -
+                                             "B as separate variables  " -
+                                             "Include separate quality " -
+                                             "flags for charging, " -
+                                             "eclipse and biasing. " -
+                                             "Wygant wants these to be " -
+                                             "accessed simply  Density " -
+                                             "from SC potential  SC " -
+                                             "potential (V1-V6)  Ex mgse" -
+                                             " (spin axis component) for" -
+                                             ' "good" ratios of |Bx/Bz| ' -
+                                             "and |By/Bz|,  The magnetic" -
+                                             " field ratios themselves, " -
+                                             " L value, MLT, MLAT,  and " -
+                                             "the position of the SC in " -
+                                             "GSE.  The unit vector of " -
+                                             "the spin axis in gse " -
+                                             "coordinate system.  All " -
+                                             "quantities are at spin " -
+                                             "period resolution" } .
+
+  "Instrument_type"     1:    CDF_CHAR     { "Electric Fields (space)" } .
+
+  "Mission_group"       1:    CDF_CHAR     { "RBSP" } .
+
+  "Logical_source"      1:    CDF_CHAR     { "rbsp_efw-l3_vsvy-hires" } .
+
+  "Logical_source_description"
+                        1:    CDF_CHAR     { "L3 CDF files for " -
+                                             "individual distribution by" -
+                                             " EFW team" } .
+
+  "Time_resolution"     1:    CDF_CHAR     { "UTC" } .
+
+  "Rules_of_use"        1:    CDF_CHAR     { "Open Data for Scientific " -
+                                             'Use; please see EFW "Rules' -
+                                             ' of the Road" ' -
+                                             "(http://rbsp.space.umn.edu" -
+                                             "/data_policy.html) for " -
+                                             "details of the Van Allen " -
+                                             "Probes Mission and EFW " -
+                                             'Instrument "Rules of the ' -
+                                             'Road", and the EFW-FAQ ' -
+                                             "(http://rbsp.space.umn.edu" -
+                                             "/efw_faq.html) for details" -
+                                             " of and caveats on " -
+                                             "instrument performance and" -
+                                             " data quality." } .
+
+  "Generated_by"        1:    CDF_CHAR     { "RBSP-EFW SOC" } .
+
+  "Acknowledgement"     1:    CDF_CHAR     { " This work was supported " -
+                                             "by Van Allen Probes (RBSP)" -
+                                             " EFW funding provided by " -
+                                             "JHU/APL Contract No. TBD " -
+                                             "under NASA's Prime " -
+                                             "Contract No. TBD; EFW PI, " -
+                                             "J. R. Wygant, UMN." } .
+
+  "MODS"                1:    CDF_CHAR     { "v01:  initial version; " -
+                                             "started with L1 EFW VSVY " -
+                                             "CDF, removing all L0 (e.g." -
+                                             " CCSDS packet header) " -
+                                             "variables, changing " -
+                                             "variable type of VSVY " -
+                                             "variable from INT to REAL " -
+                                             "to reflect tranformation " -
+                                             "from TM to Physical units;" -
+                                             " added variables for " -
+                                             "average of opposing " -
+                                             "sensors, VSVY_AVG; added " -
+                                             "variable for sensor " -
+                                             "potential quality flag, " -
+                                             "VSVY_QUAL. Added EFW data " -
+                                             "quality flag array. " } .
+
+  "ADID_ref"            1:    CDF_CHAR     { "n/a" } .
+
+  "LINK_TEXT"           1:    CDF_CHAR     { "tmp" } .
+
+  "LINK_TITLE"          1:    CDF_CHAR     { "tmp" } .
+
+  "HTTP_LINK"           1:    CDF_CHAR     { "http://" } .
+
+  "File_naming_convention"
+                        1:    CDF_CHAR     { "source_descriptor_datatype" } .
+
+  "Data_type"           1:    CDF_CHAR     { "VSVY-hires>Sensor " -
+                                             "Potentials and SC " -
+                                             "Potential" } .
+
+  "Generation_date"     1:    CDF_CHAR     { "Fiducial UTC " -
+                                             "YYYY:MM:DDTHH:MM:SS" } .
+
+  "Logical_file_id"     1:    CDF_CHAR     { "rbsp_efw-l3_vsvy-hires_000" -
+                                             "00000_v01" } .
+
+
+#VARIABLEattributes
+
+  "CATDESC"
+  "FIELDNAM"
+  "VALIDMIN"
+  "VALIDMAX"
+  "FILLVAL"
+  "UNITS"
+  "VAR_TYPE"
+  "DICT_KEY"
+  "SCALETYP"
+  "MONOTON"
+  "DEPEND_0"
+  "DEPEND_1"
+  "DISPLAY_TYPE"
+  "FORMAT"
+  "LABL_PTR_1"
+  "UNIT_PTR"
+  "LABLAXIS"
+  "VAR_NOTES"
+  "FORM_PTR"
+  "SCAL_PTR"
+  "LEAP_SECONDS_INCLUDED"
+  "RESOLUTION"
+  "Bin_location"
+  "TIME_BASE"
+  "TIME_SCALE"
+  "REFERENCE_POSITION"
+  "ABSOLUTE_ERROR"
+  "RELATIVE_ERROR"
+  "DEPEND_2"
+
+
+#variables
+
+! No rVariables.
+
+
+#zVariables
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "epoch"         CDF_EPOCH16     1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: 01-Jan-0000 00:00:00.000.000.000.000
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Time, UTC" }
+    "FIELDNAM"    CDF_CHAR     { "Time, UTC" }
+    "VALIDMIN"    CDF_EPOCH16   { 01-Jan-2009 00:00:00.000.000.000.000 }
+    "VALIDMAX"    CDF_EPOCH16   { 31-Dec-2100 00:00:00.000.000.000.000 }
+    "FILLVAL"     CDF_EPOCH16   { 31-Dec-9999 23:59:59.999.999.999.999 }
+    "UNITS"       CDF_CHAR     { "UTC" }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DICT_KEY"    CDF_CHAR     { "time>Epoch" }
+    "SCALETYP"    CDF_CHAR     { "linear" }
+    "MONOTON"     CDF_CHAR     { "INCREASE" }
+    "VAR_NOTES"   CDF_CHAR     { "Time tags for the survey quantities" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "rbspa_eu_wake_flag"
+                  CDF_REAL4      1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "var1" }
+    "FIELDNAM"    CDF_CHAR     { "var1_1d_timeseries" }
+    "VALIDMIN"    CDF_REAL4    { -1.0e+30 }
+    "VALIDMAX"    CDF_REAL4    { 1.0e+30 }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "UNITS"       CDF_CHAR     { "units" }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "SCALETYP"    CDF_CHAR     { "linear" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "LABLAXIS"    CDF_CHAR     { "var1" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "rbspa_ev_wake_flag"
+                  CDF_REAL4      1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "var1" }
+    "FIELDNAM"    CDF_CHAR     { "var1_1d_timeseries" }
+    "VALIDMIN"    CDF_REAL4    { -1.0e+30 }
+    "VALIDMAX"    CDF_REAL4    { 1.0e+30 }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "UNITS"       CDF_CHAR     { "units" }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "SCALETYP"    CDF_CHAR     { "linear" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FORMAT"      CDF_CHAR     { "E12.2" }
+    "LABLAXIS"    CDF_CHAR     { "var1" } .
+
+  ! RV values were not requested.
+
+
+
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "rbspa_eu_fixed"
+                  CDF_REAL4      1       1     3        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "vsvy_vavg" }
+    "FIELDNAM"    CDF_CHAR     { "vsvy_vavg" }
+    "VALIDMIN"    CDF_REAL4    { -1000.0, -1000.0, -1000.0 }
+    "VALIDMAX"    CDF_REAL4    { 1000.0, 1000.0, 1000.0 }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "SCALETYP"    CDF_CHAR     { "linear" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "sfit_compno" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FORMAT"      CDF_CHAR     { "E13.6" }
+    "LABL_PTR_1"  CDF_CHAR     { "vsvy_vavg_LABL_1" }
+    "UNIT_PTR"    CDF_CHAR     { "vsvy_vavg_UNIT" }
+    "LABLAXIS"    CDF_CHAR     { "(V1 + V2)/2" }
+    "VAR_NOTES"   CDF_CHAR     { "Eu" } .
+
+  ! RV values were not requested.
+
+
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "rbspa_ev_fixed"
+                  CDF_REAL4      1       1     3        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -1.0e+30
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "vsvy_vavg" }
+    "FIELDNAM"    CDF_CHAR     { "vsvy_vavg" }
+    "VALIDMIN"    CDF_REAL4    { -1000.0, -1000.0, -1000.0 }
+    "VALIDMAX"    CDF_REAL4    { 1000.0, 1000.0, 1000.0 }
+    "FILLVAL"     CDF_REAL4    { -1.0e+31 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "SCALETYP"    CDF_CHAR     { "linear" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "sfit_compno" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FORMAT"      CDF_CHAR     { "E13.6" }
+    "LABL_PTR_1"  CDF_CHAR     { "vsvy_vavg_LABL_1" }
+    "UNIT_PTR"    CDF_CHAR     { "vsvy_vavg_UNIT" }
+    "LABLAXIS"    CDF_CHAR     { "(V1 + V2)/2" }
+    "VAR_NOTES"   CDF_CHAR     { "Ev" } .
+
+  ! RV values were not requested.
+
+
+
+
+
+
+
+
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "label"         CDF_CHAR       1       1     3        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "label" }
+    "FIELDNAM"    CDF_CHAR     { "label" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "FORMAT"      CDF_CHAR     { "A21" } .
+
+  ! NRV values follow...
+
+    [1] = { "x" }
+    [2] = { "y" }
+    [3] = { "z" }
+
+
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "sfit_compno"   CDF_INT4       1       1     3        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: -2147483647
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Spin-fit E-field component number" }
+    "FIELDNAM"    CDF_CHAR     { "sfit_compno" }
+    "VALIDMIN"    CDF_INT4     { 1, 1, 1 }
+    "VALIDMAX"    CDF_INT4     { 3, 3, 3 }
+    "FILLVAL"     CDF_INT4     { -2147483648 }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "SCALETYP"    CDF_CHAR     { "linear" }
+    "FORMAT"      CDF_CHAR     { "I8" }
+    "LABLAXIS"    CDF_CHAR     { "Comp No 1" }
+    "VAR_NOTES"   CDF_CHAR     { "Spin-fit E-field component number" } .
+
+  ! NRV values follow...
+
+    [1] =        1
+    [2] =        2
+    [3] =        3
+
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "vsvy_vavg_LABL_1"
+                  CDF_CHAR      24       1     3        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "vsvy_vavg_LABL_1" }
+    "FIELDNAM"    CDF_CHAR     { "vsvy_vavg_LABL_1" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "FORMAT"      CDF_CHAR     { "A25" }
+    "LABLAXIS"    CDF_CHAR     { "vsvy_vavg_LABL_1" } .
+
+  ! NRV values follow...
+
+    [1] = { "(V1+V2)/2               " }
+    [2] = { "(V3+V4)/2               " }
+    [3] = { "(V5+V6)/2               " }
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "vsvy_vavg_UNIT"
+                  CDF_CHAR      22       1     3        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "vsvy_vavg_UNIT" }
+    "FIELDNAM"    CDF_CHAR     { "vsvy_vavg_UNIT" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "FORMAT"      CDF_CHAR     { "A23" }
+    "LABLAXIS"    CDF_CHAR     { "vsvy_vavg_UNIT" } .
+
+  ! NRV values follow...
+
+    [1] = { "v                     " }
+    [2] = { "v                     " }
+    [3] = { "v                     " }
+
+
+
+#end
