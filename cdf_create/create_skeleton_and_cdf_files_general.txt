@@ -1,0 +1,30 @@
+Three steps to:
+1) create a .txt file ("skeleton table") from existing CDF file
+2) modify it to your liking
+3) save modified skeleton table as a new CDF file
+
+----------------------------------------------------------------
+1)...create a skeleton table from a preexisting cdf file. This is step 1.
+----------------------------------------------------------------
+
+/Applications/cdf/cdf37_0-dist/bin/skeletontable -skeleton-path /Users/aaronbreneman/Desktop/skeletonout /Users/aaronbreneman/Desktop/aaa_rbspa_efw-l3_00000000_v02
+
+
+
+----------------------------------------------------------------
+2)...Now modify the skeleton table to your liking.
+----------------------------------------------------------------
+
+
+
+----------------------------------------------------------------
+3)...Now use the modified skeleton table to create a new CDF file (saves as "cdout")
+/Applications/cdf/cdf37_0-dist/bin/skeletoncdf -cdf-path /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/cdfout /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/skeletons/skeleton_rbspa_fbk
+----------------------------------------------------------------
+
+
+
+
+
+
+

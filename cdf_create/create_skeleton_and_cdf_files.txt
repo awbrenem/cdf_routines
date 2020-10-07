@@ -1,0 +1,60 @@
+
+
+----------------------------------------------------------------
+...create a skeleton table from a preexisting cdf file. This is step 1.
+********
+NOTE: THAT I'VE ALREADY DONE THIS STEP FOR ALL THE CDF FILES
+they've been saved in the "skeletons" folder in /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create
+********
+----------------------------------------------------------------
+
+/Applications/cdf/cdf37_0-dist/bin/skeletontable -skeleton-path /Users/aaronbreneman/Desktop/skeletonout /Users/aaronbreneman/Desktop/aaa_rbspa_efw-l3_00000000_v02
+/Applications/cdf/cdf37_0-dist/bin/skeletontable -skeleton-path /Users/aaronbreneman/Desktop/skeletonout /Users/aaronbreneman/Desktop/aaa_rbspa_efw-l2_00000000_v02
+/Applications/cdf/cdf37_0-dist/bin/skeletontable -skeleton-path /Users/aaronbreneman/Desktop/skeletonout /Users/aaronbreneman/Desktop/aaa_rbspb_efw-l2_fbk_00000000_v02
+/Applications/cdf/cdf37_0-dist/bin/skeletontable -skeleton-path /Users/aaronbreneman/Desktop/skeletonout /Users/aaronbreneman/Desktop/aaa_rbspa_efw-l2_spec_00000000_v02
+/Applications/cdf/cdf37_0-dist/bin/skeletontable -skeleton-path /Users/aaronbreneman/Desktop/skeletonout /Users/aaronbreneman/Desktop/rbspa_efw-pflux_00000000_v01
+/Applications/cdf/cdf37_0-dist/bin/skeletontable -skeleton-path /Users/aaronbreneman/Desktop/skeletonout /Users/aaronbreneman/Desktop/rbspa_hsk_00000000
+
+
+#For Sheng
+/Applications/cdf/cdf37_0-dist/bin/skeletontable -skeleton-path /Users/aaronbreneman/Desktop/skeletonout /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/rbsp_skeleton_generic_00000000
+
+
+----------------------------------------------------------------
+...Now modify the skeleton table to your liking.
+For L2 and L3 files (except for spec and FBK) these are called skeleton_rbsp?_general.skt
+For FBK they are skeleton_rbsp?_fbk.skt
+For SPEC they are skeleton_rbsp?_spec.skt
+----------------------------------------------------------------
+
+
+
+...Now use the modified skeleton table to create a new CDF file (saves as "cdout")
+;RBSPA-FBK
+/Applications/cdf/cdf37_0-dist/bin/skeletoncdf -cdf-path /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/cdfout /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/skeletons/skeleton_rbspa_fbk
+;RBSPB-FBK
+/Applications/cdf/cdf37_0-dist/bin/skeletoncdf -cdf-path /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/cdfout /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/skeletons/skeleton_rbspb_fbk
+
+;RBSPA-SPEC
+/Applications/cdf/cdf37_0-dist/bin/skeletoncdf -cdf-path /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/cdfout /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/skeletons/skeleton_rbspa_spec
+;RBSPB-SPEC
+/Applications/cdf/cdf37_0-dist/bin/skeletoncdf -cdf-path /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/cdfout /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/skeletons/skeleton_rbspb_spec
+
+;RBSPA-GENERAL
+/Applications/cdf/cdf37_0-dist/bin/skeletoncdf -cdf-path /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/cdfout /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/skeletons/skeleton_rbspa_general.skt
+;RBSPB-GENERAL
+/Applications/cdf/cdf37_0-dist/bin/skeletoncdf -cdf-path /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/cdfout /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/skeletons/skeleton_rbspb_general.skt
+
+;RBSPA-Wake flag for Sheng 
+/Applications/cdf/cdf37_0-dist/bin/skeletoncdf -cdf-path /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/cdfout /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/skeletons/skeleton_rbspa_sheng_wake_flag.skt
+
+
+;FIREBIRD (FU3)
+/Applications/cdf/cdf37_0-dist/bin/skeletoncdf -cdf-path /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/cdfout /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/skeletons/skeleton_FU3_general.skt
+;FIREBIRD (FU4)
+/Applications/cdf/cdf37_0-dist/bin/skeletoncdf -cdf-path /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/cdfout /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/skeletons/skeleton_FU4_general.skt
+
+#RBSPA-Pflux 
+/Applications/cdf/cdf37_0-dist/bin/skeletoncdf -cdf-path /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/cdfout /Users/aaronbreneman/Desktop/code/Aaron/github.umn.edu/cdf_create/skeletons/skeleton_rbspa_pflux
+
+
