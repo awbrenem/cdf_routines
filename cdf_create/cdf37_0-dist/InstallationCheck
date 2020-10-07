@@ -1,0 +1,14 @@
+#! /bin/sh
+
+install_dir=$2
+
+# If the target installation directory doesn't exist (prior to installation),
+# Mac OS X 10.2 chokes.  Note that Mac OS X 10.3 creates a directory if the
+# specified installation directory doesn't exist.  So the code below is only for
+# Mac OS X 10.2.x.
+
+if [ ! -e $install_dir ]
+then
+   mkdir $install_dir
+fi     
+

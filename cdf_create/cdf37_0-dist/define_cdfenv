@@ -1,0 +1,4 @@
+source bin/definitions.C
+setenv CLASSPATH .:${CDF_JAVA}/classes/cdfjava.jar:${CDF_JAVA}/cdftools/CDFToolsDriver.jar:${CDF_JAVA}/cdfml/cdfml.jar
+setenv DYLD_LIBRARY_PATH ${CDF_LIB}:${CDF_JAVA}/lib
+setenv DYLD_LIBRARY_PATH ${CDF_LIB}:${CDF_JAVA}/lib

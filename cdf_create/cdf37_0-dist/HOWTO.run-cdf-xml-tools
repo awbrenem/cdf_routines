@@ -1,0 +1,28 @@
+***************************************************************************
+*   System requirements for the CDF Markup Language (CDFML) utilities:    *
+*                                                                         *
+*     - installed/built the CDF distribution package (CDF V2.7 or higher) *
+*     - Mac OS X Version 10.2 or a later version                          *
+***************************************************************************
+
+Instructions for using the CDFML utilitites 
+-------------------------------------------
+- Use the CDF2CDFML Java program to create a CDF Markup Language (CDFML) 
+  document, XML representation of a CDF file, from a CDF file. 
+
+  To get the instructions and valid arguments/options, enter:
+       java CDF2CDFML (at the operating system prompt)
+
+- Use the CDFML2CDF Java program to convert a CDFML document into a CDF file. 
+
+  To get the instructions and valid arguments/options, enter:
+       java CDFML2CDF (at the operating system prompt)
+
+
+NOTE:
+   If one creates a CDFML file from an existing CDF file and creates a new
+   CDF file from that CDFML file, the contents of the new file is the same 
+   as the original CDF file.  But the ordering of some of the variable 
+   attributes in the new file could be different from the original file 
+   that should be transparent to the users.
+  

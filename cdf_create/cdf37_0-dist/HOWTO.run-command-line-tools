@@ -1,0 +1,121 @@
+Below is a list of the CDF command line utilities (a.k.a. CDF toolkit) included
+as part of the CDF distribution package.  Java version of the command line
+utilities are also included as part of the CDF distribution package, and their
+use is recommended over the command line version since they are much more
+intuitive and easier to use.  The HOWTO.run-Java-tools file describes how to
+use the Java version of CDF tools.
+
+To invoke any of the utilities listed below, just type the name of the program
+of interest at the operating system prompt.  This will display a brief 
+description of the program and the help information as to how to use the 
+program on the screen.
+
+cdfcomapre 
+     This utility is used to display a directory listing of a CDF's files. 
+     The .cdf file is displayed first followed by the rVariable files and 
+     then the zVariable files (if either exist in a multi-file CDF) in 
+     numerical order. 
+
+cdfconvert 
+     This program is used to convert various properties of a CDF. In all 
+     cases new CDFs are created (existing CDFs are not modified.) Any 
+     combination of the following properties may be changed when converting 
+     a CDF. 
+
+       - A CDF created with an earlier release of the CDF library (e.g., CDF 
+         V2.5) may be converted to the current library release. 
+       - The format of the CDF may be changed. 
+       - The data encoding of the CDF may be changed. 
+       - The variable majority of the CDF may be changed. 
+
+cdfdir 
+     This program displays a directory listing of a CDF's files.
+
+cdfedit 
+     This program allows the display and/or modification of practically all 
+     of the contents of a CDF by way of a full-screen interface. It is also 
+     possible to run CDFedit in a browse-only mode if that's desired. 
+
+cdfdump 
+     This program dumps the data contents of a CDF file, one variable at a
+     time.  Output is more human readable than the format produced by cdfexport.
+
+cdfexport 
+     This program allows the entire contents or a portion of a CDF file to be 
+     exported to the terminal screen, a text file, or another CDF. The 
+     variables to be exported can be selected along with a filter range for 
+     each variable which allows a subset of the CDF to be generated. 
+     When exporting to another CDF, a new compression and sparseness can be 
+     specified for each variable. When exporting to the terminal screen or 
+     a text file, the format of the output can be tailored as necessary. 
+
+cdfinquire 
+     This program displays the version of the CDF distribution being used and 
+     the default toolkit qualifiers. 
+
+cdfmerge
+     This program merges two or more CDF files into a single CDF.  Typing
+     cdfmerge alone will display the help message.
+
+cdfstats 
+     This program produces a statistical report on a CDF's variable data. 
+     Both rVariables and zVariables are analyzed. For each variable it 
+     determines the actual minimum and maximum values (in all of the variable 
+     records), the minimum and maximum values within the valid range (if the 
+     VALIDMIN and VALIDMAX vAttributes and corresponding entries are present 
+     in the CDF), and the monotonicity. An option exists to allow fill 
+     values (specified by the FILLVAL vAttribute) to be ignored when 
+     collecting statistics. 
+
+skeletonTable 
+     This program is used to create an ASCII text file called a skeleton table 
+     containing information about a given CDF (SkeletonTable can also be 
+     instructed to output the skeleton table to the terminal screen.) It reads 
+     a CDF file and writes into the skeleton table the following information. 
+
+        1. Format (single or multi file), data encoding, variable majority. 
+        2. Number of dimensions and dimension sizes for the rVariables. 
+        3. gAttribute definitions (and gEntry values). 
+        4. rVariable and zVariable definitions and vAttribute definitions 
+           (with rEntry/zEntry values). 
+        5. Data values for all or a subset of the CDF's variables. 
+           Traditionally, only NRV variable values are written to a skeleton 
+           table. RV variable values may now also be written. The above 
+           information is written in a format that can be "understood" by the 
+           SkeletonCDF program. SkeletonCDF reads a skeleton table and creates 
+           a new CDF (called a skeleton CDF). 
+
+skeletonCDF 
+     This program is used to make a fully structured CDF, called a skeleton 
+     CDF, by reading a text file called a skeleton table. The skeleton table 
+     contains the information necessary to create a CDF that is complete in 
+     all respects except for record-variant (RV) var iable values. (RV 
+     variables vary from record to record.) RV values are then written to the 
+     CDF by the execution of an application program. The SkeletonCDF program 
+     allows a CDF to be created with the following. 
+
+        1. The necessary header information - the number of dimensions and 
+           dimension sizes for the rVariables, format, data encoding, and 
+           variable majority. 
+        2. The gAttribute definitions and any number of gEntries for each. 
+        3. The rVariable and zVariable definitions. 
+        4. The vAttribute definitions and the entries corresponding to each 
+           variable. 
+        5. The data values for those variables that are non-record-variant 
+           (NRV). NRV variables do not vary from record to record.
+
+cdfirsdump
+     This program is used to dump out the Internal Records (in hex) of a CDF
+     file. A CDF file consists of a number of Interal Records. Refer to the
+     CDF Internal Record Description Document for detail. This is a tool
+     mainly used for file diagnostics. 
+
+cdfvalidate
+     This program is used to validate a CDF file or files. It checks whether 
+     a file is a valid CDF file and if it contains any bad data.
+
+cdfmerge
+     This program combines several CDF files into one. Normally, it merges a
+     master CDF, which has only metadata, with other CDFs that contain 
+     variable data.
+  
