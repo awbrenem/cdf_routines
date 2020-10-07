@@ -1,0 +1,281 @@
+! Skeleton table for the "rbspa_l1_mscb1" CDF.
+! Generated: Monday, 5-Feb-2018 14:41:58
+! CDF created/modified by CDF V3.3.1
+! Skeleton table created by CDF V3.6.4_0
+
+#header
+
+                       CDF NAME: rbspa_l1_mscb1
+                  DATA ENCODING: NETWORK
+                       MAJORITY: ROW
+                         FORMAT: SINGLE
+
+! Variables  G.Attributes  V.Attributes  Records  Dims  Sizes
+! ---------  ------------  ------------  -------  ----  -----
+    0/5          27            18         0/z      0
+! CDF_COMPRESSION: None
+! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+! CDF_CHECKSUM: None
+! (Valid checksum: None, MD5)
+
+
+#GLOBALattributes
+
+! Attribute         Entry       Data
+! Name              Number      Type       Value
+! ---------         ------      ----       -----
+
+  "Project"             1:    CDF_CHAR     { "rbsp" } .
+
+  "Source_name"         1:    CDF_CHAR     { "rbspa>Radiation Belt Storm" -
+                                             " Probe A" } .
+
+  "Discipline"          1:    CDF_CHAR     { "Space " -
+                                             "Physics>Magnetospheric " -
+                                             "Science" }
+                        2:    CDF_CHAR     { "Space " -
+                                             "Physics>Interplanetary " -
+                                             "Studies" } .
+
+  "Descriptor"          1:    CDF_CHAR     { "l1>L1 DATA" } .
+
+  "Data_version"        1:    CDF_CHAR     { "1" } .
+
+  "PI_name"             1:    CDF_CHAR     { "J. R. Wygant" } .
+
+  "PI_affiliation" .
+
+  "TEXT" .
+
+  "Instrument_type"     1:    CDF_CHAR     { "Electric Fields (space" } .
+
+  "Mission_group"       1:    CDF_CHAR     { "RBSP" } .
+
+  "Logical_source" .
+
+  "Logical_source_description" .
+
+  "Time_resolution" .
+
+  "Rules_of_use"        1:    CDF_CHAR     { "Open Data for Scientific Use" } .
+
+  "Generated_by"        1:    CDF_CHAR     { "RBSP SOC" } .
+
+  "Acknowledgement" .
+
+  "MODS" .
+
+  "ADID_ref" .
+
+  "LINK_TEXT" .
+
+  "LINK_TITLE" .
+
+  "HTTP_LINK" .
+
+  "File_naming_convention"
+                        1:    CDF_CHAR     { "source_datatype_descriptor" } .
+
+  "Data_type"           1:    CDF_CHAR     { "mscb1" } .
+
+  "Logical_file_id"     1:    CDF_CHAR     { "rbspa_l1_mscb1_20171124_v0" -
+                                             "2.cdf" } .
+
+  "Generation_date"     1:    CDF_CHAR     { "2017-12-16 15:34:47" } .
+
+  "Parent_00"           1:    CDF_CHAR     { "efw_rbspa_1913_248_01.ptp " -
+                                             "[0:1087]" } .
+
+  "Spice_kernels"       1:    CDF_CHAR     { "rbspa_sclk_1909.tsc, " -
+                                             "rbspb_sclk_1911.tsc, " -
+                                             "naif0012.tls" } .
+
+
+#VARIABLEattributes
+
+  "CATDESC"
+  "FIELDNAM"
+  "VALIDMIN"
+  "VALIDMAX"
+  "FILLVAL"
+  "UNITS"
+  "VAR_TYPE"
+  "DICT_KEY"
+  "SCALETYP"
+  "MONOTON"
+  "DEPEND_0"
+  "DEPEND_1"
+  "DISPLAY_TYPE"
+  "FORMAT"
+  "LABL_PTR_1"
+  "UNIT_PTR"
+  "LABLAXIS"
+  "VAR_NOTES"
+
+
+#variables
+
+! No rVariables.
+
+
+#zVariables
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "epoch"         CDF_EPOCH16     1       0              T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: 01-Jan-0000 00:00:00.000.000.000.000
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Time, UTC" }
+    "FIELDNAM"    CDF_CHAR     { "Time, UTC" }
+    "VALIDMIN"    CDF_EPOCH16   { 01-Jan-2009 00:00:00.000.000.000.000 }
+    "VALIDMAX"    CDF_EPOCH16   { 31-Dec-2100 00:00:00.000.000.000.000 }
+    "FILLVAL"     CDF_EPOCH16   { 31-Dec-9999 23:59:59.999.999.999.999 }
+    "UNITS"       CDF_CHAR     { "msec" }
+    "VAR_TYPE"    CDF_CHAR     { "support_data" }
+    "DICT_KEY"    CDF_CHAR     { "time>Epoch" }
+    "SCALETYP"    CDF_CHAR     { "linear" }
+    "MONOTON"     CDF_CHAR     { "INCREASE" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "mscb1"         CDF_INT2       1       1     3        T         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: 0
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "Searchcoil Magnetic Field in XYZ " -
+                                 "Sensor Coordinates" }
+    "FIELDNAM"    CDF_CHAR     { "MSCX, MSCY, MSCZ, ADC Units" }
+    "VALIDMIN"    CDF_INT2     { -32768, -32768, -32768 }
+    "VALIDMAX"    CDF_INT2     { 32767, 32767, 32767 }
+    "FILLVAL"     CDF_INT2     { -32768 }
+    "VAR_TYPE"    CDF_CHAR     { "data" }
+    "SCALETYP"    CDF_CHAR     { "linear" }
+    "DEPEND_0"    CDF_CHAR     { "epoch" }
+    "DEPEND_1"    CDF_CHAR     { "mscb1_compno" }
+    "DISPLAY_TYPE"
+                  CDF_CHAR     { "time_series" }
+    "FORMAT"      CDF_CHAR     { "i8" }
+    "LABL_PTR_1"  CDF_CHAR     { "mscb1_labl" }
+    "UNIT_PTR"    CDF_CHAR     { "mscb1_unit" } .
+
+  ! RV values were not requested.
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "mscb1_labl"    CDF_CHAR       4       1     3        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "mscb1_labl" }
+    "FIELDNAM"    CDF_CHAR     { "mscb1_labl" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "DICT_KEY"    CDF_CHAR     { "label" }
+    "FORMAT"      CDF_CHAR     { "A2" } .
+
+  ! NRV values follow...
+
+    [1] = { "MSCX" }
+    [2] = { "MSCY" }
+    [3] = { "MSCZ" }
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "mscb1_unit"    CDF_CHAR       3       1     3        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: " "
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "mscb1_unit" }
+    "FIELDNAM"    CDF_CHAR     { "mscb1_labl" }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "DICT_KEY"    CDF_CHAR     { "label" }
+    "FORMAT"      CDF_CHAR     { "a20" } .
+
+  ! NRV values follow...
+
+    [1] = { "ADC" }
+    [2] = { "ADC" }
+    [3] = { "ADC" }
+
+
+! Variable          Data      Number                 Record   Dimension
+! Name              Type     Elements  Dims  Sizes  Variance  Variances
+! --------          ----     --------  ----  -----  --------  ---------
+
+  "mscb1_compno"
+                  CDF_INT1       1       1     3        F         T
+
+  ! VAR_COMPRESSION: None
+  ! (Valid compression: None, GZIP.1-9, RLE.0, HUFF.0, AHUFF.0)
+  ! VAR_SPARSERECORDS: None
+  ! (Valid sparserecords: None, sRecords.PAD, sRecords.PREV)
+  ! VAR_PADVALUE: 0
+
+  ! Attribute       Data
+  ! Name            Type       Value
+  ! --------        ----       -----
+
+    "CATDESC"     CDF_CHAR     { "XYZ Component Number" }
+    "FIELDNAM"    CDF_CHAR     { "XYZ Sensor coordinate number" }
+    "VALIDMIN"    CDF_INT1     { 1, 1, 1 }
+    "VALIDMAX"    CDF_INT1     { 3, 3, 3 }
+    "FILLVAL"     CDF_INT1     { -128 }
+    "VAR_TYPE"    CDF_CHAR     { "metadata" }
+    "DICT_KEY"    CDF_CHAR     { "number" }
+    "SCALETYP"    CDF_CHAR     { "linear" }
+    "FORMAT"      CDF_CHAR     { "i2" }
+    "LABL_PTR_1"  CDF_CHAR     { "mscb1_labl" } .
+
+  ! NRV values follow...
+
+    [1] =  1
+    [2] =  2
+    [3] =  3
+
+
+#end
